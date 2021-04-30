@@ -33,10 +33,13 @@ public class Main {
 		System.out.println("eklendi");
 		instructorManager.addCourse(addedCourse2);
 		instructorManager.addCourse(addedCourse1);
+		
 		System.out.println("silindi");
-		//instructorManager.deleteCourse(addedCourse1);
+		instructorManager.deleteCourse(addedCourse1);
+		
 		System.out.println("listelenddi");
-		instructorManager.listCourse();
+		instructorManager.listCourseProgram(user1);
+		
 		
 		System.out.println("studentuser2 kurs listesi");
 		

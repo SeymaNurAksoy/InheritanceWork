@@ -25,9 +25,7 @@ public class InstructorManager extends UserManager {
 		System.out.println("silindi..");
 		
 	}
-	public void listCourse() {
-		courseManager.listCourse();
-	}
+
 
 	
 }

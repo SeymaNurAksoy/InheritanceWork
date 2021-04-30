@@ -33,4 +33,14 @@ public class UserManager {
 				+" kayıt yapıldı.");	
 	}
 	}
+	
+	
+	public void listCourseProgram(User user) {
+		
+		for(Course course : user.getCourses()) {
+			System.out.println(course.getCourseName());
+		}
+	}
+	 
+	
 }

@@ -6,8 +6,12 @@ public class User {
 	String firstName;
 	String lastName;
 	String password;
+	Course[] courses;
 	
 	
+	
+
+
 	public User(int id, String firstName, String lastName, String password) {
 		super();
 		this.id = id;
@@ -16,6 +20,34 @@ public class User {
 		this.password = password;
 	}
 	
+	
+	
+
+
+	
+public User(int id, String firstName, String lastName, String password, Course[] courses) {
+		super();
+		this.id = id;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.password = password;
+		this.courses = courses;
+	}
+
+
+
+
+
+
+public Course[] getCourses() {
+		return courses;
+	}
+
+
+	public void setCourses(Course[] courses) {
+		this.courses = courses;
+	}
+
 	public int getId() {
 		return id;
 	}
