@@ -20,6 +20,7 @@ public class Course {
 	
 	
 	
+	
 	public Course(String gorsel, int courseId, int categoryId, String courseName) {
 		super();
 		this.gorsel = gorsel;

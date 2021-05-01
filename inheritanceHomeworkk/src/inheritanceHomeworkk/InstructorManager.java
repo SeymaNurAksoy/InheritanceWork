@@ -25,6 +25,12 @@ public class InstructorManager extends UserManager {
 		System.out.println("silindi..");
 		
 	}
+	public void listCourseProgram(Instructor instructor) {
+		
+		for(Course coursee : instructor.getCourses()) {
+			System.out.println(coursee.getCourseName());
+		}
+	}
 
 
 	

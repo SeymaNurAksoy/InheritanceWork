@@ -6,7 +6,7 @@ public class User {
 	String firstName;
 	String lastName;
 	String password;
-	Course[] courses;
+	
 	
 	
 	
@@ -31,22 +31,10 @@ public User(int id, String firstName, String lastName, String password, Course[]
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.password = password;
-		this.courses = courses;
+	
 	}
 
 
-
-
-
-
-public Course[] getCourses() {
-		return courses;
-	}
-
-
-	public void setCourses(Course[] courses) {
-		this.courses = courses;
-	}
 
 	public int getId() {
 		return id;

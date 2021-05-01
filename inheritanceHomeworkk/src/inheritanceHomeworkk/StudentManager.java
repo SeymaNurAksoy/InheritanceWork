@@ -10,4 +10,10 @@ public class StudentManager  extends UserManager{
 
 		System.out.println(course.getCourseDetail());
 	}
+	public void listCourseProgram(Student student ) {
+		
+		for(Course item :  student.getCourses()) {
+			System.out.println(item.getCourseName());
+		}
+	}
 }
